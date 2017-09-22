@@ -226,6 +226,7 @@ game_loop() {
             change_dir $delta_dir
         fi
         move_snake
+        sleep .18
         draw_board
         sleep 0.03
     done
